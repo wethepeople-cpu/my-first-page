@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>关于我 - 妖人的小站</title>
+</head>
+
+<body style="text-align: center; margin-top: 60px; font-family: system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;">
+  <h1>关于我</h1>
+
+  <p>你好，我是妖人。</p>
+  <p>这是我做的第二个网页：一个“关于我”的页面。</p>
+
+  <p id="line" style="margin-top: 24px; font-weight: 600;"></p>
+
+  <button onclick="showLine()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+    给我一句话
+  </button>
+
+  <div style="margin-top: 30px;">
+    <a href="index.html">← 回到首页</a>
+  </div>
+
+  <script>
+    function showLine() {
+      document.getElementById("line").innerText = "今天也要做点有趣的东西。";
+    }
+  </script>
+</body>
+</html>
