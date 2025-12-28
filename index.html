@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>我的第一个页面</title>
+</head>
+<body style="text-align: center; margin-top: 60px;">
+
+    <h1 style="font-size: 40px;">欢迎来到妖人的小站</h1>
+
+  <p>这是我今天亲手做的第一个小网页</p>
+
+  <button onclick="sayHello()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
+    和我打个招呼
+  </button>  
+
+  <p id="result"></p>
+
+  <script>
+    function sayHello() {
+      document.getElementById("result").innerText =
+        "你好！很高兴认识你。";
+    }
+  </script>
+
+</body>
+</html>
